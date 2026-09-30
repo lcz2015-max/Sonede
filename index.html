@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#087bd8">
+<title>SONEDE | خدمات المياه</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;color:#174d88;background:#f4fbff}
+a{text-decoration:none;color:inherit}.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 3px 18px #075da01a}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:10px}.logo{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#087bd8,#44bce9);color:#fff;font-size:27px;border:3px solid #fff;box-shadow:0 2px 9px #087bd83d}
+.brand strong{font-size:24px;color:#075eae}.brand small{display:block;font-size:10px;color:#71849a;margin-top:2px}
+nav{display:flex;gap:25px;font-weight:bold;color:#315f88}nav a:hover{color:#087bd8}
+.btn{display:inline-block;background:#087bd8;color:#fff;border:0;border-radius:14px;padding:12px 20px;font-weight:bold;cursor:pointer}
+.hero{background:linear-gradient(135deg,#056ac5,#0d9ae1 65%,#63d0ef);color:#fff;overflow:hidden}
+.hero-inner{min-height:470px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.hero-copy{max-width:610px}.hero h1{font-size:48px;margin:0 0 15px;line-height:1.2}.hero h1 span{color:#dff7ff}.hero p{font-size:19px;line-height:1.9;opacity:.96}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn-light{background:#fff;color:#075eae}.drop{font-size:180px;opacity:.18;filter:drop-shadow(0 15px 20px #004b8730)}
+section{padding:70px 0}.title{text-align:center;margin-bottom:35px}.title h2{font-size:34px;margin:0 0 8px}.title p{color:#708399}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid #dceefa;border-radius:24px;padding:26px;box-shadow:0 10px 30px #116ca012}.icon{font-size:38px;margin-bottom:13px}.card h3{margin:0 0 10px;font-size:21px}.card p{color:#6c7d8e;line-height:1.8}
+.calculator{background:linear-gradient(135deg,#eaf8ff,#fff);border:1px solid #d2ebf9;border-radius:30px;padding:30px;max-width:760px;margin:auto;box-shadow:0 12px 35px #146da012}
+label{display:block;font-weight:bold;margin-bottom:8px}input{width:100%;padding:16px;border:2px solid #5aaee5;border-radius:14px;font-size:20px;outline:none}
+.calc-row{display:grid;grid-template-columns:1fr 180px;gap:15px;align-items:end}.result{margin-top:20px;background:#fff;border-radius:18px;padding:18px;text-align:center}.result b{font-size:34px;color:#075eae}
+.about{background:#fff}.about-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.about-art{background:linear-gradient(145deg,#087bd8,#6bd1ef);min-height:260px;border-radius:30px;display:grid;place-items:center;font-size:120px;color:#fff}
+.about p{line-height:2;color:#63778b}
+.contact{background:#eaf7ff}.contact-box{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-item{background:#fff;padding:22px;border-radius:20px;text-align:center}.contact-item b{display:block;margin-top:8px}
+footer{background:#075ca9;color:#fff;padding:28px 0;text-align:center}footer small{opacity:.8}
+@media(max-width:760px){nav{display:none}.hero-inner{min-height:500px;text-align:center;justify-content:center}.hero h1{font-size:36px}.hero-actions{justify-content:center}.drop{display:none}.grid{grid-template-columns:1fr}.about-box{grid-template-columns:1fr}.contact-box{grid-template-columns:1fr}.calc-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="container nav">
+  <a class="brand" href="#">
+   <div class="logo">≋</div>
+   <div><strong>SONEDE</strong><small>الشركة الوطنية لاستغلال وتوزيع المياه</small></div>
+  </a>
+  <nav><a href="#home">الرئيسية</a><a href="#services">الخدمات</a><a href="#calculator">الحاسبة</a><a href="#about">عن الموقع</a><a href="#contact">اتصل بنا</a></nav>
+  <a class="btn" href="#calculator">احسب فاتورتك</a>
+ </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+ <div class="container hero-inner">
+  <div class="hero-copy">
+   <h1>الماء <span>حياة</span>...<br>فلنحافظ عليه</h1>
+   <p>بوابة رقمية بسيطة تساعدك على متابعة استهلاك المياه، تقدير الفاتورة، والوصول بسرعة إلى أهم الخدمات والمعلومات.</p>
+   <div class="hero-actions"><a class="btn btn-light" href="#calculator">حاسبة الفاتورة</a><a class="btn" href="#services">اكتشف الخدمات</a></div>
+  </div>
+  <div class="drop">💧</div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="container">
+  <div class="title"><h2>خدماتنا</h2><p>كل ما تحتاجه في مكان واحد</p></div>
+  <div class="grid">
+   <article class="card"><div class="icon">💧</div><h3>حاسبة الفاتورة</h3><p>أدخل استهلاكك بالمتر المكعب واحصل على تقدير سريع للمبلغ.</p></article>
+   <article class="card"><div class="icon">📊</div><h3>متابعة الاستهلاك</h3><p>تابع كمية المياه المستعملة وساعد على ترشيد الاستهلاك.</p></article>
+   <article class="card"><div class="icon">📞</div><h3>المساعدة والتواصل</h3><p>الوصول السريع إلى معلومات التواصل وخدمات المشتركين.</p></article>
+ </div>
+ </div>
+</section>
+
+<section id="calculator">
+ <div class="container">
+  <div class="title"><h2>حاسبة فاتورة الماء</h2><p>حساب تقديري للتوضيح</p></div>
+  <div class="calculator">
+   <div class="calc-row">
+    <div><label for="usage">الاستهلاك الشهري (م³)</label><input id="usage" type="number" min="0" value="12"></div>
+    <button class="btn" onclick="calculate()">احسب</button>
+   </div>
+   <div class="result">المبلغ التقديري<br><b><span id="amount">36.000</span> د.ت</b><div id="message"></div></div>
+   
+  </div>
+ </div>
+</section>
+
+<section id="about" class="about">
+ <div class="container about-box">
+  <div class="about-art">💧</div>
+  <div><div class="title" style="text-align:right;margin-bottom:10px"><h2>عن الموقع</h2></div>
+  <p>هذا الموقع نموذج رقمي حديث لخدمات المياه، صُمم ليكون واضحًا وسهل الاستخدام على الهاتف والكمبيوتر. يمكنك تطويره لاحقًا بإضافة تسجيل الدخول، الفواتير الحقيقية، الدفع الإلكتروني، والإشعارات.</p>
+  <a class="btn" href="#contact">معلومات التواصل</a></div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container">
+  <div class="title"><h2>تواصل معنا</h2><p>يمكن تخصيص هذه البيانات ببياناتك الحقيقية</p></div>
+  <div class="contact-box">
+   <div class="contact-item">📞<b>الهاتف</b><span>71 000 000</span></div>
+   <div class="contact-item">✉️<b>البريد الإلكتروني</b><span>contact@example.tn</span></div>
+   <div class="contact-item">📍<b>الموقع</b><span>تونس</span></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container"><strong>SONEDE</strong><br><small>الماء حياة — فلنحافظ عليه</small></div></footer>
+
+<script>
+function calculate(){
+ const u=Math.max(0,Number(document.getElementById('usage').value)||0);
+ const amount=u*3;
+ document.getElementById('amount').textContent=amount.toLocaleString('fr-TN',{minimumFractionDigits:3,maximumFractionDigits:3});
+ document.getElementById('message').textContent='الاستهلاك: '+u+' م³';
+}
+</script>
+</body>
+</html>
